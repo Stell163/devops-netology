@@ -14,3 +14,4 @@ first line
         override.tf.json
         .terraformrc
         terraform.rc
+#IDE2
