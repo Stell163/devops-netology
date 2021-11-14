@@ -14,3 +14,5 @@ first line
         override.tf.json
         .terraformrc
         terraform.rc
+
+#New line
