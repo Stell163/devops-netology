@@ -215,6 +215,8 @@ cat /root/devops.example.com.crt | jq -r .data.private_key > /root/devops.exampl
 systemctl reload nginx
 root@vagrant:~# chmod ugo+x sert.sh
 ```
+![img_4.png](img_4.png)
+![img_5.png](img_5.png)
 ###10.Поместите скрипт в crontab, чтобы сертификат обновлялся какого-то числа каждого месяца в удобное для вас время.  
 ```bash
 root@vagrant:~# crontab –l
